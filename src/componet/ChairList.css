@@ -1,0 +1,64 @@
+.screen {
+  position: relative;
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 100%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+.screen h3 {
+  position: absolute;
+  color: black;
+  top: 20px;
+  left: 45%;
+  right: 45%;
+  transform: translate(-45%, -45%);
+  font-weight: bold;
+}
+
+.gheDaDat {
+  width: 5px;
+  height: 40px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 8px;
+}
+.gheDangChon {
+  width: 5px;
+  height: 40px;
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 8px;
+}
+.gheChuaDat {
+  width: 5px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid orange;
+  border-radius: 8px;
+}
+.ghe {
+  transition: all 0.5s;
+  outline: none;
+}
+.ghe:focus {
+  outline: none;
+}
+.ghe:hover {
+  background-color: orange !important;
+  color: #fff !important;
+}
+.ghe.booked {
+  background-color: orange !important;
+  color: #fff !important;
+}
+.ghe.booking {
+  background-color: greenyellow !important;
+  border: 1px solid greenyellow !important;
+  color: #fff !important;
+}
